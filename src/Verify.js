@@ -74,6 +74,7 @@ function Verify() {
   const handleChange = (event) => {
     const inputValue = event.target.value;
     setMobileNumber(inputValue);
+    console.log("checking");
 
     if (inputValue.length !== 10) {
       setNumberError(true);
