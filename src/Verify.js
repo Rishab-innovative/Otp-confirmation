@@ -86,7 +86,7 @@ function Verify() {
   const handleSend = () => {
     if (mobileNumber === "") return;
     toast.success(`OTP sent successfully on ${mobileNumber}`, {
-      autoClose: 1500,
+      autoClose: 1700,
     });
     setTimeout(() => {
       toast("OTP received 654321", {
